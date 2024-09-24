@@ -5,6 +5,7 @@ so ~/.config/nvim/vim-plug/plugins.vim
 so ~/.config/nvim/coc.vim
 so ~/.config/nvim/lua-tree.lua
 so ~/.config/nvim/toggleterm.lua
+so ~/.config/nvim/autoclosepair.lua
 
 set number
 set rnu

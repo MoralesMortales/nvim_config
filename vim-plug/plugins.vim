@@ -10,4 +10,5 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 	Plug 'neoclide/coc.nvim', {'branch': 'release'}
 	Plug 'akinsho/toggleterm.nvim', {'tag': '*'}
 	Plug 'akinsho/bufferline.nvim', {'tag': 'v3.*'}
+	Plug 'm4xshen/autoclose.nvim'
 call plug#end()
