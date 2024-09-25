@@ -10,4 +10,12 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 	Plug 'neoclide/coc.nvim', {'branch': 'release'}
 	Plug 'akinsho/toggleterm.nvim', {'tag': '*'}
 	Plug 'akinsho/bufferline.nvim', {'tag': 'v3.*'}
+        Plug 'neovim/nvim-lspconfig'
+        Plug 'SmiteshP/nvim-navic'
+	Plug 'nvim-colortils/colortils.nvim'
+	Plug 'nvim-lua/plenary.nvim'
+        Plug 'nvim-telescope/telescope.nvim', { 'tag': '0.1.8' }
+        Plug 'nvim-telescope/telescope-file-browser.nvim'
+	Plug 'kevinhwang91/nvim-ufo', {'do': 'make'}
+	Plug 'kevinhwang91/promise-async'
 call plug#end()

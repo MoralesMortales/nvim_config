@@ -5,6 +5,8 @@ so ~/.config/nvim/vim-plug/plugins.vim
 so ~/.config/nvim/coc.vim
 so ~/.config/nvim/lua-tree.lua
 so ~/.config/nvim/toggleterm.lua
+so ~/.config/nvim/telescope.lua
+so ~/.config/nvim/nvim-ufo.lua
 
 set number
 set rnu
