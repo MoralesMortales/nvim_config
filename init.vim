@@ -6,6 +6,9 @@ so ~/.config/nvim/coc.vim
 so ~/.config/nvim/lua-tree.lua
 so ~/.config/nvim/toggleterm.lua
 so ~/.config/nvim/autoclosepair.lua
+so ~/.config/nvim/telescope.lua
+so ~/.config/nvim/git-worktree.lua
+so ~/.config/nvim/lualine.lua
 
 set number
 set rnu
