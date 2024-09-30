@@ -22,6 +22,12 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 	Plug 'neovim/nvim-lspconfig'
 	Plug 'ThePrimeagen/git-worktree.nvim'
 	Plug 'nvim-lualine/lualine.nvim'
-
+        Plug 'williamboman/mason.nvim'
+	Plug 'williamboman/mason-lspconfig.nvim'
+	Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
+	Plug 'terryma/vim-multiple-cursors'
+	Plug 'airblade/vim-gitgutter'
+	Plug 'tpope/vim-commentary'
+	Plug 'f4z3r/gruvbox-material.nvim'
 
 call plug#end()
